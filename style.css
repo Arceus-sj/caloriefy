@@ -14,7 +14,7 @@ body {
 
 .container {
     width: 600px;
-    height: 90vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -143,10 +143,26 @@ span {
     margin: 10px;
     padding: 20px;
     text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .calculate button {
     font-weight: 600;
-    border: 1px solid red;
+    border: 1px solid black;
+}
+
+.calculate button:hover {
+    background-color: #293462;
+    color: #41dfff;
+}
+
+.ans {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 1rem;
+    color: #41dfff;
+    border-radius: 9px;
+    background-color: #293462;
+    /* border: 1px solid black; */
 }
